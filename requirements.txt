@@ -1,5 +1,4 @@
 requests==2.31.0
-config==0.5.1
 Faker==20.1.0
 uvicorn==0.23.2
 fastapi==0.103.2
