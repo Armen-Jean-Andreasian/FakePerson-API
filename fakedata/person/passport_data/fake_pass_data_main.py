@@ -1,7 +1,7 @@
-from fakedata.person.passport_data.fake_pass_data import PassportDataFakePerson
+from fakedata.person.passport_data.fake_pass_data import FakePassportDataBase
 
 
-class PassportDataFakePersonMain(PassportDataFakePerson):
+class PassportDataFakePersonMain(FakePassportDataBase):
     def retrieve_passport_data(self):
         self.gain_data()
 

@@ -2,7 +2,7 @@ import random
 from fakedata.abc_fake import Fake
 
 
-class PassportDataFakePerson(Fake):
+class FakePassportDataBase(Fake):
     def __init__(self, country):
         super().__init__(country)
         self.passport: list = self.fake_object.passport_full().split()

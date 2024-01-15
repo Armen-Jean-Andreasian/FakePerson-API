@@ -1,6 +1,6 @@
 from faker import Faker
-from fakedata.country_indexes.data import CountryData
-from fakedata.errors.error import CountryNotFoundError
+from config import CountryData
+from errors import CountryNotFoundError
 
 
 class Fake:
